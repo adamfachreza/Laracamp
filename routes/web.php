@@ -26,6 +26,11 @@ Route::get('/checkout', function () {
 })->name('checkout');
 
 Route::get('/checkout-success', function () {
-    return view('checkout-success');
+    return view('checkout_success');
 })->name('checkout-success');
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
