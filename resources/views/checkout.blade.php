@@ -30,7 +30,7 @@
                         </div>
                         <div class="col-lg-1 col-12"></div>
                         <div class="col-lg-6 col-12">
-                            <form action="#" class="basic-form">
+                            <form action="{{route(checkout-success)}}" class="basic-form">
                                 <div class="mb-4">
                                     <label for="exampleInputEmail1" class="form-label">Full Name</label>
                                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -59,8 +59,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <button type="submit" class="w-100 btn btn-primary">Pay Now</button> --}}
-                                <a href="{{route('checkout_success')}}" class="w-100 btn btn-primary">Pay Now</a>
+                                <button type="submit" class="w-100 btn btn-primary">Pay Now</button>
                                 <p class="text-center subheader mt-4">
                                     <img src="{{ url('frontend/assets/images/ic_secure.svg')}}" alt=""> Your payment is secure and encrypted.
                                 </p>
