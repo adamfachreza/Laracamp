@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ url('frontend/assets/styles/main.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ url('css/main.css')}}" type="text/css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,10 +21,10 @@
 
     <section class="login-user">
         <div class="left">
-            <img src="{{ url('frontend/assets/images/ill_login_new.png')}}" alt="">
+            <img src="{{ url('images/ill_login_new.png')}}" alt="">
         </div>
         <div class="right">
-            <img src="{{ url('frontend/assets/images/logo.png')}}" class="logo" alt="">
+            <img src="{{ url('images/logo.png')}}" class="logo" alt="">
             <h1 class="header-third">
                 Start Today
             </h1>
@@ -33,10 +33,10 @@
             </p>
             <p>
                 <a class="btn btn-border btn-google-login" href="{{route('user.login.google')}}">
-                    <img src="{{ url('frontend/assets/images/ic_google.svg')}}" class="icon" alt=""> Sign In with Google
+                    <img src="{{ url('images/ic_google.svg')}}" class="icon" alt=""> Sign In with Google
                 </a>
             </p>
-            <img src="{{ url('frontend/assets/images/people.png')}}" class="people" alt="">
+            <img src="{{ url('images/people.png')}}" class="people" alt="">
         </div>
     </section>
 
